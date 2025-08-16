@@ -4,7 +4,7 @@ Atividade de aula do dia 16/08/2025 da matéria de Integração e Entrega Contí
 
 ## Equipe
 - Rafael Cavallaro Rossi
-- [Nome do colega 1]
+- Nefi Lehi de Moraes
 - [Nome do colega 2]
 
 ## Objetivo
@@ -25,3 +25,8 @@ Criar uma aplicação simples de lista de tarefas para uso diário.
 
 ## Tecnologias
 - HTML, CSS, JavaScript (ou React, Vue, etc.)
+
+## Controle de Versão
+- Utilização do GitHub para versionamento do código
+- Criação de branches para desenvolvimento de novas funcionalidades
+- Pull Requests e revisões de código entre os membros da equipe
