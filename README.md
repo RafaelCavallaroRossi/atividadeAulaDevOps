@@ -5,7 +5,7 @@ Atividade de aula do dia 16/08/2025 da matéria de Integração e Entrega Contí
 ## Equipe
 - Rafael Cavallaro Rossi
 - Nefi Lehi de Moraes
-- [Nome do colega 2]
+- fabricio carmo
 
 ## Objetivo
 Criar uma aplicação simples de lista de tarefas para uso diário.
