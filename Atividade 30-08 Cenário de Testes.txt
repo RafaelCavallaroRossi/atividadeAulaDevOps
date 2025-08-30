@@ -1,0 +1,79 @@
+Levantamento de Testes Manuais para Tela de Login
+
+	Instruções:
+  Imagine que você foi contratado para testar uma aplicação que possui uma tela de login. Essa tela possui dois campos: um para o usuário e outro para a senha, além de um botão de enviar. Sua tarefa é levantar e documentar testes manuais para verificar se a tela de login está funcionando corretamente.
+	Escopo do Teste:
+  Você deverá elaborar casos de teste que cubram os seguintes aspectos:
+- Validação de campos obrigatórios.
+- Entrada válida.
+- Entrada inválida.
+- Comportamento do botão de envio.
+- Feedback de erros ou sucesso.
+	Requisitos Funcionais:
+- O sistema deve aceitar um usuário e uma senha válidos e permitir o login.
+- O botão de enviar só deve ser ativado se ambos os campos (usuário e senha) forem preenchidos.
+- O sistema deve retornar uma mensagem de erro caso os dados de login sejam inválidos (usuário ou senha incorretos).
+- O sistema deve exibir um feedback (como um alerta ou uma mensagem de erro) caso os campos de usuário e/ou senha não sejam preenchidos.
+	Entrega: Texto ou planilha com o roteiro que permita a reprodução dos testes por outro aluno.
+
+1. Validação de Campos Obrigatórios
+Teste 1: Ambos os campos vazios
+
+Acesse a tela de login.
+Não preencha os campos de usuário e senha.
+Clique no botão "Enviar".
+Esperado: O sistema deve exibir uma mensagem de erro informando que os campos são obrigatórios.
+Teste 2: Campo de usuário vazio
+
+Preencha apenas o campo de senha.
+Clique em "Enviar".
+Esperado: Mensagem de erro indicando que o campo de usuário é obrigatório.
+Teste 3: Campo de senha vazio
+
+Preencha apenas o campo de usuário.
+Clique em "Enviar".
+Esperado: Mensagem de erro indicando que o campo de senha é obrigatório.
+2. Comportamento do Botão de Envio
+Teste 4: Botão desabilitado com campos vazios
+
+Verifique se o botão "Enviar" está desabilitado quando os campos estão vazios.
+Esperado: O botão deve permanecer inativo até que ambos os campos sejam preenchidos.
+Teste 5: Botão habilitado com campos preenchidos
+
+Preencha os campos de usuário e senha.
+Verifique se o botão "Enviar" é ativado.
+Esperado: O botão deve estar habilitado para envio.
+3. Entrada Válida
+Teste 6: Login com credenciais válidas
+Preencha os campos com um usuário e senha válidos.
+Clique em "Enviar".
+Esperado: O sistema deve permitir o login e redirecionar para a página principal.
+4. Entrada Inválida
+Teste 7: Usuário inválido
+
+Preencha o campo de usuário com um valor incorreto e o campo de senha com um valor válido.
+Clique em "Enviar".
+Esperado: Mensagem de erro informando que o usuário ou senha estão incorretos.
+Teste 8: Senha inválida
+
+Preencha o campo de usuário com um valor válido e o campo de senha com um valor incorreto.
+Clique em "Enviar".
+Esperado: Mensagem de erro informando que o usuário ou senha estão incorretos.
+Teste 9: Ambos inválidos
+
+Preencha os dois campos com valores incorretos.
+Clique em "Enviar".
+Esperado: Mensagem de erro informando que o usuário ou senha estão incorretos.
+5. Feedback de Erros ou Sucesso
+Teste 10: Feedback visual de sucesso
+
+Realize login com credenciais válidas.
+Esperado: O sistema deve exibir uma mensagem ou alerta de sucesso antes do redirecionamento.
+Teste 11: Feedback visual de erro
+
+Tente login com credenciais inválidas.
+Esperado: O sistema deve exibir uma mensagem de erro clara e visível.
+Teste 12: Campos após erro
+
+Após uma tentativa de login inválida, verifique se os campos permanecem preenchidos.
+Esperado: Os campos devem manter os dados inseridos para facilitar a correção.
