@@ -30,3 +30,6 @@ Criar uma aplicação simples de lista de tarefas para uso diário.
 - Utilização do GitHub para versionamento do código
 - Criação de branches para desenvolvimento de novas funcionalidades
 - Pull Requests e revisões de código entre os membros da equipe
+
+## Gestão de Testes
+- Utilizamento de las funciones del Node.js e sistema Jest
